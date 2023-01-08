@@ -1,4 +1,6 @@
 # Faça um programa que, dado um conjunto de N números, determine o menor valor,o maior valor e a soma dos valores.
+# Os números \033[?;?m abaixo são para dar cores ao código
+
 print(' ')
 print('\033[4;32m--> Para parar o digito de números digite -->\033[1;31m[0]\033[4;32m<--')
 num = 1
@@ -17,7 +19,7 @@ while num > 0:
     elif num < menor:
         menor = num
             
-print(f'\033[4;36mO  maior valor é {maior} e o menor é {menor} e o total somado deu {soma}')
+print(f'\033[4;36mO  maior valor é ({maior}) e o menor é ({menor}) e o total somado deu ({soma})')
     
 
 
